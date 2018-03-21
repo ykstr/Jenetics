@@ -1,4 +1,4 @@
-package de.ykstr.jenetics.base;
+package de.ykstr.jenetics.base.utilities;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package de.ykstr.jenetics.base;
+package de.ykstr.jenetics.base.utilities;
 
 public class WeightedPair<T> {
     private T item;
