@@ -1,10 +1,10 @@
-package de.ykstr.jenetics.impl;
+package de.ykstr.jenetics.impl.stringenetics;
 
 import de.ykstr.jenetics.base.Population;
 import de.ykstr.jenetics.base.utilities.WeightedRandomSelector;
 import de.ykstr.jenetics.impl.stringenetics.*;
 
-public class Main {
+public class StringeneticsTest {
     public static void main(String[] args) {
         final String GOAL = "HelloWorld";
         StringGenerator g = new StringGenerator(GOAL.length());

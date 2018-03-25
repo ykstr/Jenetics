@@ -5,7 +5,7 @@ import de.ykstr.jenetics.base.ParentGenerator;
 
 import java.util.Random;
 
-public class StringGenerator extends ParentGenerator<String> {
+public class StringGenerator extends ParentGenerator<String> implements Generator<String>{
 
     private int length;
     private Random random = new Random();
